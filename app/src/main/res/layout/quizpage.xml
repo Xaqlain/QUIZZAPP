@@ -6,12 +6,52 @@
     android:layout_height="match_parent">
 
     <RadioButton
+        android:id="@+id/radioButton20"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:text="Africa"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton21"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:text="Asia"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton22"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:text="America"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="621dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton23"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:text="Australia"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="669dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="357dp"
+        android:layout_height="21dp"
+        android:text="5. What continent is home to Pakistanis? "
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="586dp" />
+
+    <RadioButton
         android:id="@+id/radioButton19"
         android:layout_width="155dp"
         android:layout_height="30dp"
         android:text="Islamabad"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="530dp" />
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="489dp" />
 
     <TextView
         android:id="@+id/textView9"
@@ -19,7 +59,7 @@
         android:layout_height="20dp"
         android:text="4. What is the capital city of Pakistan?"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="495dp" />
+        tools:layout_editor_absoluteY="454dp" />
 
     <RadioButton
         android:id="@+id/radioButton15"
@@ -27,23 +67,23 @@
         android:layout_height="30dp"
         android:text="Allama Iqbal"
         tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="392dp" />
+        tools:layout_editor_absoluteY="357dp" />
 
     <RadioButton
         android:id="@+id/radioButton5"
         android:layout_width="156dp"
         android:layout_height="33dp"
         android:text="None of these"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="285dp" />
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="254dp" />
 
     <RadioButton
         android:id="@+id/radioButton6"
         android:layout_width="127dp"
         android:layout_height="34dp"
         android:text="Believers"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="285dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="254dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -51,7 +91,7 @@
         android:layout_height="20dp"
         android:text="2. Word Urdu means:"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="202dp" />
+        tools:layout_editor_absoluteY="170dp" />
 
     <RadioButton
         android:id="@+id/radioButton7"
@@ -59,7 +99,7 @@
         android:layout_height="33dp"
         android:text="Group of students"
         tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="236dp" />
+        tools:layout_editor_absoluteY="204dp" />
 
     <RadioButton
         android:id="@+id/radioButton8"
@@ -67,7 +107,7 @@
         android:layout_height="32dp"
         android:text="Army"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="236dp" />
+        tools:layout_editor_absoluteY="204dp" />
 
     <RadioButton
         android:id="@+id/radioButton4"
@@ -75,7 +115,7 @@
         android:layout_height="32dp"
         android:text="KPK"
         tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="136dp" />
+        tools:layout_editor_absoluteY="118dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -92,7 +132,7 @@
         android:layout_height="21dp"
         android:text="1. In which province maximum languages are spoken?"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="64dp" />
+        tools:layout_editor_absoluteY="46dp" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -100,15 +140,15 @@
         android:layout_height="34dp"
         android:text="Sindh"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="91dp" />
+        tools:layout_editor_absoluteY="73dp" />
 
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="127dp"
         android:layout_height="34dp"
         android:text="Balochistan"
-        tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="91dp" />
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="73dp" />
 
     <RadioButton
         android:id="@+id/radioButton3"
@@ -116,15 +156,15 @@
         android:layout_height="31dp"
         android:text="Punjab"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="136dp" />
+        tools:layout_editor_absoluteY="118dp" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="358dp"
         android:layout_height="38dp"
         android:text="3. Who composed the verses of Pakistan national Anthem?"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="337dp" />
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="306dp" />
 
     <RadioButton
         android:id="@+id/radioButton11"
@@ -132,7 +172,7 @@
         android:layout_height="30dp"
         android:text="Hafeez Jalandhri"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="392dp" />
+        tools:layout_editor_absoluteY="357dp" />
 
     <RadioButton
         android:id="@+id/radioButton12"
@@ -140,15 +180,15 @@
         android:layout_height="30dp"
         android:text="Nasir Kazmi"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="432dp" />
+        tools:layout_editor_absoluteY="405dp" />
 
     <RadioButton
         android:id="@+id/radioButton13"
         android:layout_width="155dp"
         android:layout_height="30dp"
         android:text="Multan"
-        tools:layout_editor_absoluteX="236dp"
-        tools:layout_editor_absoluteY="571dp" />
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="537dp" />
 
     <RadioButton
         android:id="@+id/radioButton17"
@@ -156,7 +196,7 @@
         android:layout_height="30dp"
         android:text="Lahore"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="530dp" />
+        tools:layout_editor_absoluteY="489dp" />
 
     <RadioButton
         android:id="@+id/radioButton18"
@@ -164,7 +204,7 @@
         android:layout_height="30dp"
         android:text="Karachi"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="571dp" />
+        tools:layout_editor_absoluteY="537dp" />
 
     <RadioButton
         android:id="@+id/radioButton16"
@@ -172,7 +212,7 @@
         android:layout_height="30dp"
         android:text="Faiz Ahmed Faiz"
         tools:layout_editor_absoluteX="232dp"
-        tools:layout_editor_absoluteY="432dp" />
+        tools:layout_editor_absoluteY="405dp" />
 
 
 </android.support.constraint.ConstraintLayout>
