@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i=new Intent(getApplicationContext(),MainActivity.class);
                 i.putExtra("Name", name);
                 startActivity(i);
+
             }
         });
     }}
